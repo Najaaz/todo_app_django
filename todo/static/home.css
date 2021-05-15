@@ -1,0 +1,64 @@
+.home_container{
+    padding:40px 20px;
+}
+
+.welcome_name, .month_value{
+    font-family: 'Days One', sans-serif;;
+}
+
+
+.date_value{
+    font-size: 100px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.month_value{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.day_value{
+    font-size: 25px;
+    font-weight: 450;
+}
+
+.right_side{
+    background-image: linear-gradient(190deg, #e7ecef, #b1b1b1);
+    width: 60%;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+.task_details_container{
+    min-height: 100px;
+    border-radius: 30px;
+    background-color: #5EC2B7;
+}
+
+.checkBtn{
+    color: rgb(68, 68, 68);
+    transition: 0.3s;
+}
+
+.checkBtn:hover{
+    cursor: pointer;
+    color: black;
+    transition: 0.3s;
+}
+
+/* For laptops */
+@media (min-width:993px) {
+    .left_side{
+        width: 40%;
+    }
+    .right_side{
+        margin: 20px 10px;
+    }
+}
+
+
+/* For Tablets */
+@media (max-width:992px) {
+    
+}
