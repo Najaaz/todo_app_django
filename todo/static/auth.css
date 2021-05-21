@@ -1,0 +1,23 @@
+.content-section-login, .content-section-logout{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.content-section-login > form{
+    width: 97vh;
+    max-width: 450px;
+    
+}
+
+
+/* For laptops */
+@media (min-width:993px) {
+    
+}
+
+
+/* For Tablets */
+@media (max-width:992px) {
+    
+}

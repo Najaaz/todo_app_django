@@ -6,7 +6,6 @@
     font-family: 'Days One', sans-serif;;
 }
 
-
 .date_value{
     font-size: 100px;
     font-weight: 700;
@@ -28,6 +27,7 @@
     width: 60%;
     border-radius: 30px;
     padding: 5px;
+    height: fit-content;
 }
 
 .task_details_container{
@@ -36,15 +36,37 @@
     background-color: #5EC2B7;
 }
 
-.checkBtn{
+.checkBtn-tick, .checkBtn-bin{
     color: rgb(68, 68, 68);
     transition: 0.3s;
 }
 
-.checkBtn:hover{
+.checkBtn-tick:hover{
     cursor: pointer;
-    color: black;
+    color: green;
     transition: 0.3s;
+}
+
+.checkBtn-bin:hover{
+    cursor: pointer;
+    color: red;
+    transition: 0.3s;
+}
+
+.details{
+    flex: 1;
+}
+
+#live_time{
+    font-size: 70px;
+    background-color: rgb(184, 204, 190);
+}
+
+.logout_btn{
+    position: absolute;
+    z-index: -1;
+    top: 7px;
+    right: 40px;
 }
 
 /* For laptops */
@@ -54,6 +76,9 @@
     }
     .right_side{
         margin: 20px 10px;
+    }
+    .welcome_name{
+        margin-top: 40px;
     }
 }
 

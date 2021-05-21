@@ -13,3 +13,14 @@ class TaskSerializer(serializers.ModelSerializer):
             'completed':{"read_only":True}
         }
 
+
+class TaskEditSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Task
+        fields = '__all__'
+        extra_kwargs = {
+            "user":{"read_only":True},
+            "task":{"read_only":True}
+        }
+
